@@ -47,10 +47,10 @@ public class Ejemplo1 extends Application {
 		
 		Text raza = new Text("Raza:");
 		ComboBox<String> raza1 = new ComboBox<String>();
-		raza1.getItems().addAll("pastor alemán", "bulldog", "chihuahua", "pitbull", "shih tsu");
+		raza1.getItems().addAll("pastor alemán", "bulldog", "chihuahua", "pitbull", "shih tsu", "pomerania");
 		
 		
-		CheckBox pedigri = new CheckBox ("¿Tiene pedigrí?");
+		CheckBox pedigri = new CheckBox ("Pedigrí");
 		pedigri.setSelected(true);
 		
 		
